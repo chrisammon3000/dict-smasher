@@ -1,8 +1,0 @@
-README.md
-setup.py
-dict_smasher/__init__.py
-dict_smasher/dict_smasher.py
-dict_smasher.egg-info/PKG-INFO
-dict_smasher.egg-info/SOURCES.txt
-dict_smasher.egg-info/dependency_links.txt
-dict_smasher.egg-info/top_level.txt
