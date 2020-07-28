@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dict-smasher", # Replace with your own username
-    version="0.0.1",
+    version="1.0.0",
     author="Gregory Lindsey",
     author_email="gclindsey@gmail.com",
     description="Flatten Python dictionaries in one go.",
