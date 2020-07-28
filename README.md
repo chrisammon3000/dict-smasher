@@ -1,4 +1,4 @@
-# Foobar
+# dict-smasher
 
 `dict-smasher` is a Python library for for flattening nested dictionaries. It can flatten keys that contain nested dictionaries and lists of dictionaries.
 
