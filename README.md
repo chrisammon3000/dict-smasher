@@ -28,12 +28,22 @@ dict_write(nested_dict, header, path) # output csv file
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
-Please make sure to update tests as appropriate.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Contact
+
+Gregory Lindsey - [@abk7x4](https://twitter.com/abk7x4) - gclindsey@gmail.com
+
+Project Link: [https://github.com/abk7777/dict-smasher](https://github.com/abk7777/dict-smasher)
 
 [contributors-shield]: https://img.shields.io/github/contributors/abk7777/dict-smasher.svg?style=flat-square
 [contributors-url]: https://github.com/abk7777/dict-smasher/graphs/contributors
