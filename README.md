@@ -16,7 +16,7 @@
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dict-smasher.
 
 ```bash
-pip install dict-smasher
+pip install -i https://test.pypi.org/simple/ dict-smasher
 ```
 
 ## Usage
