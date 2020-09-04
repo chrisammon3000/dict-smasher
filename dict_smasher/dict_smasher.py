@@ -19,7 +19,7 @@ def select_keys(dictionary, keys):
         try:
             dictionary_copy_select[k] = dictionary_copy[k]
         except KeyError as err:
-            logger.error(f'{err}: "{k}"')
+            print(f'{err}: "{k}"')
             continue
 
     return dictionary_copy_select
