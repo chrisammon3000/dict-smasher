@@ -8,12 +8,21 @@ import csv
 def select_keys(dictionary, keys):
     """Selects dictionary keys."""
 
-    dictionary = copy.deepcopy(dictionary)
+    dictionary_copy = copy.deepcopy(dictionary)
 
     # Select keys
-    dictionary = {k: dictionary[k] for k in (keys)}
+    #dictionary_copy = {k: dictionary_copy[k] for k in (keys)}
 
-    return dictionary
+    dictionary_copy_select = {}
+
+    for k in keys:
+        try:
+            dictionary_copy_select[k] = dictionary_copy[k]
+        except KeyError as err:
+            logger.error(f'{err}: "{k}"')
+            continue
+
+    return dictionary_copy_select
 
 
 # Add prefix to keys
